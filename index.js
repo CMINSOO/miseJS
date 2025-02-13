@@ -2,10 +2,10 @@ const mysql = require("mysql2/promise");
 
 async function insertProblem() {
   const connection = await mysql.createConnection({
-    host: "backendtest.c7gaw6asmxbo.ap-northeast-2.rds.amazonaws.com",
-    user: "admin",
-    password: "peter0524!010",
-    database: "backendTest",
+    host: ""
+    user: ""
+    password: ""
+    database: ""
   });
 
   //   const sample = ["돌아가나?"];
